@@ -1,644 +1,698 @@
-# Bihar Vikas Vidyalaya — Modern Editorial Landing Page
+# Bihar Vikas Vidyalaya — Modern School Website Redesign
+
+## Design Specification (`design.md`)
 
 ## 1. Project Overview
 
 **Project:** Bihar Vikas Vidyalaya (BVV)  
 **Official Website:** https://www.bvv.co.in/  
-**Design Theme:** Modern Editorial — Minimal & Sophisticated  
-**Website Type:** Single-Page School Landing Page  
-**Primary Audience:** Parents, prospective students, current families, and school management  
-**Primary Objective:** Present a premium, contemporary school website that builds trust, communicates educational values, showcases campus life, and generates admission enquiries.
+**Reference Website:** https://www.meridiantheschool.com/  
+**Design Direction:** Modern, Image-Rich, Professional School Website  
+**Website Type:** Single-Page Landing Page  
+**School Level:** Classes I–XII  
+**Board:** CBSE  
+**Medium:** English  
+**Location:** Gopalganj, Bihar, India
 
-Redesign the existing school website into a visually distinctive, editorial-style digital experience.
+### Project Objective
 
-The result should feel like a premium creative agency designed it specifically for an established educational institution. It must not look like a generic school template, an ordinary corporate website, or a childish educational website.
+Redesign the existing Bihar Vikas Vidyalaya website using the reference website's broad school-focused layout, content hierarchy, photography-led presentation, and comprehensive institutional sections.
 
-The entire website must remain on a single landing page. Include all major sections, including About, Academics, Facilities, Gallery, News & Blog, Testimonials, FAQs, Admissions, and Contact.
+The new website must look more polished, visually consistent, modern, responsive, and professionally developed than a typical school website.
 
-Do not create separate pages for these sections.
+The website will be presented to school directors as a design and development showcase.
+
+**Important:** Build only one landing page. Every section, including leadership, academics, facilities, gallery, news, FAQs, admission information, and contact details, must exist on the same page.
+
+Do not create separate pages for individual sections.
 
 ---
 
-## 2. Creative Direction
+## 2. Design Inspiration
 
-### Design Concept
+Use the reference website for inspiration in the following areas:
 
-Create a sophisticated combination of:
+- A top information bar containing school contact details.
+- A comprehensive but well-organized navigation menu.
+- A large, image-led hero section.
+- A school introduction with supporting photography.
+- Leadership and faculty presentation.
+- Academic information and school highlights.
+- Statistics and key information.
+- Frequently asked questions.
+- Admission-focused calls to action.
+- A comprehensive footer with contact information and useful links.
 
-- Contemporary editorial design.
-- Premium educational branding.
-- Minimalist Swiss-inspired layouts.
-- Asymmetric photography compositions.
-- Large expressive typography.
-- Warm, natural colors.
-- Generous whitespace.
-- Subtle motion and refined interactions.
+Improve the overall experience through stronger typography, more consistent spacing, refined colors, better photography, improved mobile navigation, and smoother interactions.
 
-The website should feel intelligent, calm, confident, welcoming, and aspirational.
-
-It should communicate academic seriousness without appearing old-fashioned.
-
-### Design Principles
-
-1. Typography should establish the visual hierarchy.
-2. Photography should communicate the school's atmosphere.
-3. Whitespace should create elegance rather than empty space.
-4. Color should be restrained and intentional.
-5. Every section should have a distinct composition.
-6. Interactions should feel smooth and understated.
-7. Information should be easy for parents to find.
-8. Admission enquiries should remain accessible throughout the experience.
-
-Avoid excessive rounded cards, excessive shadows, gradients everywhere, generic icon grids, repetitive layouts, and unnecessary decorative elements.
+Do not reproduce the reference website pixel by pixel. Create an original design for Bihar Vikas Vidyalaya.
 
 ---
 
 ## 3. Visual Identity
 
+Create a professional educational identity that combines trust, academic seriousness, warmth, and contemporary design.
+
 ### Color Palette
 
-Use a refined palette inspired by nature, printed editorial publications, and premium educational institutions.
-
-| Design Token | Color | Hex |
+| Purpose | Color | Hex |
 |---|---|---|
-| Primary Forest Green | Deep forest | `#234B3B` |
-| Dark Green | Evergreen | `#17382D` |
-| Warm Cream | Main page background | `#F7F5EF` |
-| Pure White | Content background | `#FFFFFF` |
-| Sage | Soft green accent | `#DCE5D8` |
-| Terracotta | Limited warm accent | `#C77655` |
-| Primary Text | Near-black charcoal | `#252823` |
-| Secondary Text | Muted gray | `#74776F` |
-| Border | Soft neutral | `#E4E2D9` |
+| Primary | Deep Academic Blue | `#163A63` |
+| Secondary | Royal Blue | `#245B91` |
+| Accent | Warm Gold | `#D7A84B` |
+| Main Background | Soft White | `#FFFFFF` |
+| Alternate Background | Light Blue-Gray | `#F3F6FA` |
+| Highlight Background | Pale Gold | `#FBF5E8` |
+| Primary Text | Dark Charcoal | `#202A36` |
+| Secondary Text | Slate Gray | `#647184` |
+| Borders | Light Gray | `#E3E8EF` |
 
-### Color Application
+### Color Guidelines
 
-- Use warm cream as the primary page background.
-- Use forest green for important sections, buttons, and selected navigation states.
-- Use near-black for major headings.
-- Use sage for subtle background variations.
-- Use terracotta sparingly for small accents or selected labels.
-- Use white to create contrast around photographs and content blocks.
+- Use white as the main page background.
+- Use deep academic blue for headings, the main navigation, important backgrounds, and major CTAs.
+- Use royal blue for secondary accents and selected links.
+- Use gold sparingly for small highlights, separators, icons, and decorative details.
+- Use light blue-gray to distinguish alternate sections.
+- Maintain excellent text contrast.
 
-Do not use every color in every section.
+Avoid excessive gradients, multiple competing accent colors, and unnecessary glassmorphism.
 
-Forest green and cream must remain the dominant colors.
+The result should feel like a credible educational institution, not a software startup or a children's entertainment website.
 
 ---
 
-## 4. Typography System
+## 4. Typography
 
-Typography is the central design element of this theme.
+Use a modern, professional typographic system.
 
-### Recommended Fonts
-
-**Display Headings:** DM Serif Display or Playfair Display.  
-**Body Text:** Manrope or Inter.  
-**Navigation and Labels:** Manrope with medium font weight.
-
-Use a serif display typeface to create editorial character, paired with a modern sans-serif for excellent readability.
+**Display Headings:** Plus Jakarta Sans or Manrope, bold and expressive.  
+**Body Text:** Inter or Manrope.  
+**Navigation:** Manrope, medium weight.  
+**Labels and Captions:** Inter, regular or medium weight.
 
 ### Typography Rules
 
-- Large, expressive hero headlines.
-- Selective line breaks to create deliberate compositions.
-- Comfortable paragraph widths.
-- Small uppercase section labels with subtle letter spacing.
-- Clear hierarchy between H1, H2, H3, and body text.
-- Responsive typography using `clamp()`.
-- Minimal use of bold text within paragraphs.
+- Use large, confident hero headings.
+- Maintain a consistent heading hierarchy.
+- Keep paragraphs concise and readable.
+- Use generous line height.
+- Use uppercase labels selectively.
+- Avoid excessive font weights.
+- Use responsive typography with CSS `clamp()`.
 
-Avoid making every heading oversized. Create contrast between large display headings and compact supporting content.
-
----
-
-## 5. Layout and Spacing System
-
-Use a consistent design grid.
-
-### Desktop
-
-- Maximum content width: approximately 1440px.
-- Main content width: approximately 1200–1320px.
-- Generous side margins.
-- Twelve-column layout where appropriate.
-- Large vertical spacing between major sections.
-- Asymmetric layouts for selected editorial sections.
-
-### Tablet
-
-- Eight-column or flexible grid.
-- Reduced spacing.
-- Simplified asymmetric compositions.
-
-### Mobile
-
-- Single-column layouts for most sections.
-- Carefully controlled text wrapping.
-- Compact but comfortable spacing.
-- Full-width photography where appropriate.
-- Touch-friendly interactive controls.
-
-Use a consistent spacing scale based on 8px increments, with larger spacing reserved for major section transitions.
-
-The page should feel intentionally composed rather than mechanically assembled from identical cards.
+The website must be readable for parents using both desktop and mobile devices.
 
 ---
 
-## 6. Header and Navigation
+## 5. Header and Navigation
 
-Create a minimal editorial header.
+Create a two-level header inspired by comprehensive institutional websites.
 
-### Desktop Layout
+### A. Top Information Bar
 
-Left:
-- Official school logo.
-- School name: Bihar Vikas Vidyalaya.
+Use a compact deep-blue strip containing verified information.
 
-Right:
-- About
-- Academics
-- Campus
-- Gallery
-- Journal
-- Admissions
-- Contact
+Possible content:
 
-Include a compact forest-green “Admission Enquiry” CTA.
+- School location.
+- Official school email.
+- Official telephone number.
+- Optional social media links.
 
-### Styling
+Keep the information concise and ensure it wraps cleanly on mobile.
 
-- Warm cream background.
-- Minimal or no shadow.
-- Thin neutral bottom border if needed.
-- Generous horizontal padding.
-- Refined typography.
-- Subtle hover transitions.
-- Sticky positioning after scrolling, if appropriate.
+Do not invent any contact details.
 
-### Interaction
+### B. Main Navigation
 
-Navigation links should smoothly scroll to the relevant sections on the same page.
+The main navigation should contain:
 
-The header should transition subtly into a solid background when scrolling over photographic or dark sections.
+- School logo and name.
+- Home.
+- About Us.
+- Academics.
+- Leadership.
+- Facilities.
+- Activities.
+- Gallery.
+- News & Blog.
+- Admissions.
+- Contact.
 
-On mobile, use a clean accessible menu with a visible admission CTA.
+Include a prominent gold or royal-blue **Admission Enquiry** button.
 
-Do not make the navigation visually dominant over the content.
+### Desktop Behavior
+
+- Keep the navigation horizontally aligned.
+- Use restrained dropdown indicators only if needed.
+- Use clear hover and active states.
+- Keep spacing balanced.
+- Make the header sticky after scrolling if appropriate.
+
+### Mobile Behavior
+
+- Use a compact header with the logo and menu button.
+- Open an accessible navigation drawer or dropdown panel.
+- Keep admission enquiry accessible.
+- Ensure all menu items are keyboard and touch friendly.
+- Close the menu after a section link is selected.
+
+All internal navigation must scroll to sections on the same page.
 
 ---
 
-## 7. Hero Section — Editorial First Impression
+## 6. Hero Section
 
 **Section ID:** `home`
 
-This section must create an immediate sense of quality and differentiation.
+The hero must be visually impressive and immediately communicate the school's identity.
 
-### Composition
+### Layout
 
-Use a distinctive split-layout hero rather than a conventional centered headline above three cards.
+Use a large photographic hero with a sophisticated split composition or full-width campus photograph.
 
-Suggested desktop arrangement:
+Include:
 
-- Left side: large headline and concise introductory text.
-- Right side: a large authentic school photograph.
-- Small supporting label above the headline.
-- Primary and secondary actions below the copy.
-- Optional small editorial caption integrated into the image composition.
+- School name.
+- A strong headline.
+- Concise supporting copy.
+- Primary admission CTA.
+- Secondary exploration CTA.
+- A prominent authentic school photograph.
 
-Use an asymmetric image crop or overlapping composition only when it improves readability and visual balance.
-
-### Suggested Content
+### Suggested Hero Copy
 
 Eyebrow:
 
-`BIHAR VIKAS VIDYALAYA · GOPALGANJ`
+`WELCOME TO BIHAR VIKAS VIDYALAYA`
 
 Headline:
 
-**“A Place to Learn.  
-A Foundation to Grow.”**
+**“Inspiring Young Minds. Building Brighter Futures.”**
 
 Supporting text:
 
-“Discover an educational environment where curiosity, knowledge, and personal growth come together to help students prepare for the future.”
+“Discover a learning environment where academic development, curiosity, and personal growth help students prepare for tomorrow.”
 
 Primary CTA:
 
-`Explore Our School`
+`Enquire for Admission`
 
 Secondary CTA:
 
-`Enquire for Admission`
-
-Use verified school information to refine the supporting copy before launch.
+`Explore Our School`
 
 ### Hero Photography
 
-Prioritize authentic photographs of:
+Prioritize genuine school photographs showing:
 
-- The school campus.
-- Students learning in a classroom.
-- Genuine school activities.
-- Teachers interacting with students.
+- Campus architecture.
+- Students in classrooms.
+- Teacher–student interaction.
+- Real school activities.
 
-The photograph should feel natural, warm, and editorial.
+Use a subtle overlay only when needed to maintain readability.
 
-Avoid generic stock images wherever authentic assets are available.
+Avoid placing too many badges, statistics, and text blocks over the hero image.
 
-### Hero Motion
-
-- Subtle text entrance.
-- Gentle image reveal.
-- Small transition on CTA hover.
-- Optional restrained image movement during scroll.
-
-Keep motion understated. The hero should look excellent even when all animations are disabled.
+The first viewport should feel spacious, polished, and trustworthy.
 
 ---
 
-## 8. School Information Strip
+## 7. School Highlights Strip
 
-Place a slim information strip beneath the hero.
+Place a compact information strip directly below the hero.
 
-Show three or four verified facts:
+Display four concise highlights:
 
-- CBSE-affiliated education.
-- English-medium instruction.
-- Classes I–XII.
-- Gopalganj, Bihar.
+1. CBSE-Affiliated Education.
+2. English-Medium Instruction.
+3. Classes I–XII.
+4. Gopalganj, Bihar.
 
-Use simple typography and small separators rather than colorful badges.
+Use minimal icons or simple typography with restrained separators.
 
-The strip should be compact, elegant, and easy to scan.
+These facts must be verified against the school's approved information before publication.
 
-Do not invent statistics, rankings, establishment years, or student counts.
+Do not invent rankings, awards, establishment years, or student statistics.
 
 ---
 
-## 9. About the School
+## 8. About Bihar Vikas Vidyalaya
 
 **Section ID:** `about`
 
 ### Section Label
 
-`THE SCHOOL`
+`ABOUT OUR SCHOOL`
 
 ### Heading
 
-**“Education That Goes Beyond the Classroom.”**
+**“A Learning Environment That Inspires Growth.”**
 
-### Layout
+Create a two-column section containing:
 
-Create a spacious editorial section with:
+**Left:** Large campus or classroom photograph.
 
-- One large campus or classroom photograph.
-- A smaller supporting image or caption, where useful.
-- A clear text column.
-- Short, carefully written paragraphs.
-- A small text-based anchor link.
+**Right:** School introduction, educational philosophy, and a short CTA.
 
 ### Content
 
-Explain the school's educational approach, commitment to student development, academic environment, and educational values.
+Explain:
 
-Use existing official website content and management-approved information.
+- The school's educational approach.
+- Its commitment to academic learning.
+- Student development and participation.
+- The importance of a supportive learning environment.
+- The school's educational values.
 
-Do not invent the school's founding story, mission, leadership, achievements, or facilities.
+Use existing official website content or management-approved copy.
 
-### Visual Style
+### Design Details
 
-- Warm cream background.
-- Large serif heading.
-- Generous line height.
-- Minimal decorative elements.
-- Subtle image borders only when needed.
+- White background.
+- Large headings.
+- Short paragraphs.
+- Subtle blue accents.
+- Optional small supporting image.
+- Generous spacing.
 
-The section should feel like an editorial introduction, not a conventional corporate “About Us” card.
+Avoid long text blocks and repetitive feature cards.
 
 ---
 
-## 10. Academic Journey
+## 9. Vision and Educational Philosophy
+
+**Section ID:** `vision`
+
+Create a visually distinctive section explaining the school's approach to education.
+
+### Suggested Heading
+
+**“Education That Shapes More Than Academics.”**
+
+Use three content pillars:
+
+- Knowledge and Understanding.
+- Character and Responsibility.
+- Curiosity and Personal Growth.
+
+These should be presented as design themes, not claims about programmes that have not been verified.
+
+### Layout
+
+Use a light blue-gray background with three horizontally aligned content blocks on desktop.
+
+Each block should include:
+
+- A simple line icon.
+- A short heading.
+- One concise explanatory paragraph.
+
+Use minimal borders and avoid excessive shadows.
+
+Stack the blocks vertically on mobile.
+
+---
+
+## 10. Academic Programme — Classes I to XII
 
 **Section ID:** `academics`
 
-### Section Label
-
-`LEARNING JOURNEY`
-
 ### Heading
 
-**“Growing Through Every Stage.”**
+**“A Learning Journey Through Every Stage.”**
 
-Present the academic journey from Classes I to XII in a clear visual progression.
+Present the academic journey from Classes I to XII in a clear and visually engaging layout.
 
-Potential stages:
+### Academic Stages
 
-1. Primary Education.
-2. Middle School.
-3. Secondary Education.
-4. Senior Secondary Education.
+Organize the content into appropriate stages based on the school's actual curriculum:
 
-Confirm the exact class ranges and stages with the school's actual offerings before publication.
+- Primary Education.
+- Middle School.
+- Secondary Education.
+- Senior Secondary Education.
 
-### Layout
+Verify the school's exact class offerings and the applicable class ranges before publishing stage descriptions.
 
-Use a horizontal editorial sequence or a two-column layout with large numerals, compact descriptions, and carefully chosen photographs.
+### Each Stage Should Include
 
-Each stage should include:
-
-- Stage title.
-- Verified class range.
+- Stage name.
+- Applicable class range.
 - Concise educational description.
-- Optional supporting photograph.
+- Relevant photograph or visual.
+- Optional anchor link to the admissions section.
 
-Use typography, alignment, and spacing to distinguish each stage instead of placing every item inside a rounded card.
+### Visual Design
 
-On mobile, stack the stages vertically with clear separation.
+Use a clean four-column desktop layout or a horizontal academic progression.
 
-Do not make unsupported claims about examination results, special programmes, or teaching methods.
+Each stage should have a different photographic emphasis or subtle visual distinction.
+
+Avoid using identical oversized cards for every section.
+
+On mobile, use a vertical progression with comfortable spacing.
+
+Do not invent specific subject combinations, examination results, or specialized programmes.
 
 ---
 
-## 11. Learning Environment and Facilities
+## 11. Leadership and Faculty
 
-**Section ID:** `campus`
-
-### Section Label
-
-`LIFE ON CAMPUS`
+**Section ID:** `leadership`
 
 ### Heading
 
-**“Space to Explore. Freedom to Discover.”**
+**“Leadership That Guides Learning.”**
 
-Create a photography-led section that introduces the school's learning environment.
+Create a professional leadership section inspired by institutional school websites.
 
-Potential categories, subject to verification:
+### Content
 
+Where verified and approved, feature:
+
+- Chairman.
+- Director or Managing Director.
+- Principal.
+- Vice Principal.
+- Academic leadership.
+- Faculty members.
+
+### Profile Design
+
+Each profile may include:
+
+- Authentic portrait.
+- Full name.
+- Official designation.
+- Brief approved biography, if available.
+
+Use a restrained image grid with consistent image dimensions and subtle hover effects.
+
+Keep portraits professional and well-lit.
+
+Do not invent leadership names, qualifications, designations, or biographies.
+
+If information is unavailable, use an alternative section titled “Our Commitment to Learning” instead of displaying fictional profiles.
+
+---
+
+## 12. School Facilities
+
+**Section ID:** `facilities`
+
+### Heading
+
+**“Designed for Learning. Built for Discovery.”**
+
+Create a photography-led showcase of the school's actual facilities.
+
+Potential categories include:
+
+- Academic Blocks.
 - Classrooms.
 - Library.
-- Science laboratories.
-- Computer facilities.
-- Sports and playground.
-- Cultural activities.
-- Student support.
-- Transportation and safety.
+- Science Laboratory.
+- Computer Laboratory.
+- Mathematics Laboratory.
+- Sports Facilities.
+- Activity Spaces.
+- Transportation.
+- Student Safety and Support.
+
+Only display facilities confirmed by the school.
 
 ### Layout
 
-Use a varied editorial grid.
+Use a varied grid combining:
 
-Example composition:
+- One large feature image.
+- Two smaller supporting images.
+- A concise text panel.
+- Additional facility highlights.
 
-- One large feature photograph.
-- Two smaller supporting photographs.
-- A compact text panel.
-- A secondary row of selected facilities.
+Each facility should have a clear title and short description.
 
-Avoid using identical cards for every item.
+Use authentic campus photographs wherever possible.
 
-Each photograph should have a meaningful caption where necessary.
-
-Do not advertise a facility unless the school actually provides it.
+Do not use stock photography in a way that implies a facility exists at BVV when it has not been verified.
 
 ---
 
-## 12. Editorial Photo Gallery
+## 13. Activities and Student Life
+
+**Section ID:** `activities`
+
+### Heading
+
+**“Learning Continues Beyond the Classroom.”**
+
+Showcase the school's extracurricular and student-life experiences.
+
+Potential categories:
+
+- Sports.
+- Cultural Events.
+- Music and Dance.
+- Art and Creativity.
+- Celebrations.
+- Community Activities.
+- Competitions.
+
+Include only activities that actually take place at the school or have been approved for publication.
+
+### Design
+
+Create a vibrant but restrained section using large photographs, concise labels, and a clean grid.
+
+Use a slightly different background color from the facilities section to maintain visual rhythm.
+
+Avoid childish illustrations or excessive decorative shapes.
+
+---
+
+## 14. Photo Gallery
 
 **Section ID:** `gallery`
 
-This should be one of the most visually memorable sections of the website.
-
-### Section Label
-
-`A CLOSER LOOK`
+The gallery should be one of the strongest visual sections of the landing page.
 
 ### Heading
 
-**“Moments That Make School Life.”**
+**“Life at BVV, Through Our Lens.”**
 
-### Design Concept
+### Gallery Categories
 
-Build an asymmetric editorial gallery inspired by contemporary magazines and photography portfolios.
-
-The composition should use:
-
-- Mixed portrait and landscape photographs.
-- Varied image ratios.
-- Clean alignment.
-- Generous gutters.
-- Large photographs mixed with smaller supporting images.
-- Small, understated captions.
-- Minimal visual chrome.
-
-Do not force all photographs into identical rectangular cards.
-
-### Categories
-
-Where sufficient authentic photographs exist, provide filters for:
+Where sufficient authentic photographs exist, include:
 
 - Campus.
-- Learning.
+- Classroom.
 - Activities.
 - Sports.
-- Celebrations.
 - Events.
+- Celebrations.
 
-### Interaction
+### Gallery Layout
 
-- Smooth image hover transitions.
-- Accessible lightbox.
-- Previous and next navigation.
-- Keyboard support.
-- Escape key to close.
+Use a premium image grid with varied aspect ratios.
+
+Recommended composition:
+
+- One large landscape image.
+- Two supporting images.
+- A row of smaller photographs.
+- Consistent gutters.
+- Minimal captions.
+
+Do not place every image inside an identical rounded card.
+
+### Functionality
+
+- Category filters.
+- Click-to-open lightbox.
+- Previous and next image controls.
+- Keyboard navigation.
+- Escape-to-close behavior.
 - Touch-friendly controls.
 - Descriptive image alt text.
 - Background scroll locking while the lightbox is open.
 
-Use authentic school photography wherever possible.
+If there are many photographs, lazy-load images below the fold.
 
-If official photographs are unavailable, use clearly replaceable demonstration images and ensure that they are not presented as genuine photographs of BVV.
-
-On mobile, simplify the composition without losing its editorial character.
+Use authentic school photographs. Clearly identify any temporary demo imagery so it can be replaced before launch.
 
 ---
 
-## 13. News, Events and School Journal
+## 15. News, Events and Blog
 
-**Section ID:** `journal`
-
-### Section Label
-
-`FROM OUR COMMUNITY`
+**Section ID:** `news`
 
 ### Heading
 
-**“Stories, Ideas & School Life.”**
+**“What's Happening at BVV.”**
 
-Create an editorial content section that combines school announcements, event highlights, and educational articles.
+Create a modern content section for school updates and educational stories.
 
 ### Content Categories
 
 - School News.
 - Events and Celebrations.
 - Academic Updates.
-- Sports and Activities.
-- Parent Information.
+- Sports Highlights.
+- Parent Announcements.
 - Educational Insights.
 
-### Article Preview Design
+### Article Preview Layout
 
-Each article preview should include:
+Display three article previews on desktop.
+
+Each preview should include:
 
 - Featured image.
 - Category label.
 - Verified publication date.
 - Article title.
 - Short excerpt.
-- “Read Story” interaction.
+- Read More control.
 
-Use an editorial grid with varied emphasis. One featured article may occupy more visual space than two smaller supporting stories.
+Use one visually prominent featured article alongside two smaller stories if the available content supports it.
 
-Avoid excessive shadows and rounded cards.
+### Single-Page Behavior
 
-### Single-Page Interaction
+Do not create separate blog pages or article routes for this project.
 
-The project must remain a single-page landing page.
+When users click Read More, open the article in an accessible modal or inline expansion on the same page.
 
-Opening an article should use an inline expansion, accessible modal, or another suitable single-page interaction.
+The structure should allow future CMS or backend integration.
 
-Do not create separate article routes for this redesign.
+Do not fabricate article dates, school news, awards, or event details.
 
-If the school has no verified articles, display clearly marked demonstration content until approved content becomes available.
-
-Structure the section so it can be connected to a CMS or backend in the future.
-
-Do not fabricate school news, dates, events, or achievements.
+If genuine content is unavailable, use clearly identified demo entries for the presentation.
 
 ---
 
-## 14. The BVV Difference
+## 16. Why Choose BVV?
 
-**Section ID:** `approach`
+**Section ID:** `why-bvv`
 
 ### Heading
 
-**“More Than Lessons. A Broader Perspective.”**
+**“A Strong Foundation for the Future.”**
 
-Create a concise section explaining the school's educational philosophy and value to students.
+Create a visually prominent section that summarizes the school's value to families.
 
-Possible themes, subject to verification:
+Potential themes:
 
 - Academic development.
-- Student confidence.
-- Curiosity and independent thinking.
-- Participation in extracurricular activities.
-- Personal responsibility.
-- A supportive learning environment.
+- Student participation.
+- Supportive learning.
+- Personal growth.
+- Extracurricular opportunities.
+- Communication with parents.
+
+Use claims supported by actual school information.
 
 ### Design
 
-Use a dark forest-green background with warm cream typography.
+Use a deep-blue background with white text and gold accents.
 
-Arrange the content as a refined two-column editorial composition:
+Create a two-column layout:
 
-- Large headline on one side.
-- Short explanatory copy and three or four principles on the other.
+- Left: large headline and short introduction.
+- Right: three or four concise highlights.
 
-Use small numbers, fine separators, or understated typographic details.
+Use simple line icons or understated numbered markers.
 
-Do not invent school-specific promises or claims.
+Avoid unsupported claims such as “No. 1 School” or “Best School in Bihar.”
 
 ---
 
-## 15. Achievements and Highlights
+## 17. School Achievements and Statistics
 
-Include this section only when authentic, verifiable information is available.
+Include this section only if verified data is available.
 
-### Potential Content
+### Possible Content
 
+- Number of students.
+- Number of teachers.
+- Years of operation.
 - Academic achievements.
+- Verified awards.
 - Sports achievements.
-- Recognized awards.
-- Student accomplishments.
-- School milestones.
 
-### Design
+### Visual Design
 
-Use a minimal horizontal layout or a compact editorial feature.
+Use a clean horizontal statistics strip or a compact highlights section.
 
-Avoid giant animated counters and arbitrary statistics.
+Use restrained number animations only for verified statistics.
 
-If the school has no verified achievements to publish, replace this section with an educational philosophy statement or a learning-environment highlight.
+Do not use arbitrary counters, exaggerated claims, or fictional numbers.
 
-Never invent rankings, awards, examination percentages, or student statistics.
+If reliable statistics are unavailable, replace this section with a visual feature about the school's educational approach.
 
 ---
 
-## 16. Parent and Alumni Testimonials
+## 18. Parent Testimonials
 
-**Section ID:** `voices`
+**Section ID:** `testimonials`
 
 ### Heading
 
-**“Experiences That Speak for Themselves.”**
+**“Trust Built Through Experience.”**
 
-Feature genuine, management-approved feedback from parents or alumni.
+Display genuine, approved parent or alumni testimonials where available.
 
-### Visual Treatment
+### Design
 
-- Cream or white background.
-- Large serif quotation typography.
-- Restrained forest-green accents.
-- Optional portrait only with appropriate permission.
-- Clear attribution where approved.
+- White or pale-blue background.
+- Large quotation typography.
+- Optional parent photograph with permission.
+- Clear attribution.
+- Simple carousel if multiple testimonials exist.
 
-A simple carousel may be used when multiple genuine testimonials are available.
+Do not fabricate quotations, names, star ratings, or endorsements.
 
-Do not fabricate testimonials, names, photographs, ratings, or endorsements.
-
-If verified testimonials are unavailable, replace this section with a concise school philosophy statement.
+If testimonials are unavailable, use an educational philosophy statement or a parent information panel instead.
 
 ---
 
-## 17. Admission Enquiry Feature
+## 19. Admissions Section
 
 **Section ID:** `admissions`
 
-This is a key conversion section.
+Create a prominent admission-focused section before the FAQ and contact areas.
 
-### Heading
+### Headline
 
-**“Take the Next Step in Your Child's Learning Journey.”**
+**“Your Child's Next Chapter Starts Here.”**
 
 ### Supporting Text
 
-“Connect with Bihar Vikas Vidyalaya to learn more about the school, academic offerings, and admission process.”
+“Connect with Bihar Vikas Vidyalaya to learn more about our educational environment and admission process.”
 
-### CTA
+### Primary CTA
 
 `Enquire for Admission`
 
+### Secondary CTA
+
+`Contact the School`
+
 ### Design
 
-Use a full-width forest-green section with:
+Use a deep-blue background with a large white headline, restrained gold details, and a clean visual composition.
 
-- Large cream headline.
-- Short supporting text.
-- A clearly visible CTA.
-- Minimal supporting decoration.
-- Generous spacing.
+Keep the CTA visually prominent without making the section overly promotional.
 
-The section should feel confident and welcoming rather than aggressive or sales-oriented.
-
-Do not claim that admissions are currently open unless officially confirmed.
+Do not claim admissions are open unless confirmed by school management.
 
 ---
 
-## 18. Admission Enquiry Form
+## 20. Admission Enquiry Form
 
-Place a compact form inside or immediately after the admissions section.
+Include a simple, accessible form near the admissions section.
 
 ### Fields
 
@@ -646,182 +700,194 @@ Place a compact form inside or immediately after the admissions section.
 - Student Name.
 - Phone Number.
 - Class of Interest.
-- Optional Email.
-- Optional Message.
+- Email Address (optional).
+- Message (optional).
 
-### Functional Requirements
+### Requirements
 
-- Proper input labels.
+- Visible form labels.
 - Required-field validation.
 - Phone number validation.
 - Accessible error messages.
-- Loading and submission states where applicable.
-- Clear success feedback.
+- Submission and loading states.
+- Success and error feedback.
 - Privacy notice.
-- Spam protection if a backend is connected.
+- Spam protection when connected to a backend.
 
-Do not display a false success message when no submission endpoint exists.
+The form must not falsely indicate successful submission when no working endpoint exists.
 
-If the project is a frontend-only prototype, clearly identify the form as a demonstration or provide a verified alternative contact method.
-
-Do not invent school contact information.
+If the implementation is frontend-only, identify it as a demo or provide an approved contact alternative.
 
 ---
 
-## 19. Frequently Asked Questions
+## 21. Frequently Asked Questions
 
 **Section ID:** `faq`
 
 ### Heading
 
-**“Questions Parents Often Ask.”**
+**“Frequently Asked Questions.”**
 
 Suggested questions:
 
-- Which classes does the school offer?
-- Is Bihar Vikas Vidyalaya CBSE-affiliated?
-- What is the medium of instruction?
+- Which classes does BVV offer?
+- Is the school CBSE-affiliated?
+- Is English the medium of instruction?
 - How can parents enquire about admission?
 - Which documents may be required?
 - How can parents contact the school?
 - Where is the school located?
 
-Use official information to answer each question.
+Use verified school information for all answers.
 
-If an answer is not verified, direct parents to contact the school instead of making assumptions.
+For questions requiring confirmation, direct visitors to the official school contact channel.
 
 ### Interaction
 
-- Accessible accordion controls.
+- Accessible accordion.
 - Keyboard operation.
 - Visible open and closed states.
-- Proper expanded-state attributes.
-- Smooth, restrained transitions.
+- Smooth transitions.
+- Appropriate expanded-state attributes.
 - Mobile-friendly spacing.
-
-Do not add unsupported fee details, admission deadlines, or policies.
 
 ---
 
-## 20. Contact and Location
+## 22. Contact and Location
 
 **Section ID:** `contact`
 
 ### Heading
 
-**“We Would Be Happy to Hear From You.”**
+**“Let's Connect.”**
 
-Use an elegant two-column layout.
+Create a clean contact section with two main areas.
 
-### Contact Information
+**Contact Information:**
 
-Display only verified details:
-
-- School address.
-- Telephone number.
-- Official email.
-- Office hours.
-- Directions.
+- Official school address.
+- Verified telephone number.
+- Official email address.
+- Confirmed office timings.
+- Directions link.
 - Approved social media profiles.
 
-### Map
+**Location Area:**
 
-If appropriate, include a map or a link to directions.
+- Optional embedded map.
+- Directions CTA.
+- Concise location information.
 
-Lazy-load an embedded map to avoid unnecessary initial loading costs.
+Use authentic school contact details.
 
-On mobile, stack contact information and location content vertically.
+Lazy-load the map if it is embedded.
 
-Ensure phone numbers use appropriate click-to-call links and verified email addresses use mail links.
-
-Do not invent contact details or social media accounts.
+On mobile, stack the content vertically and ensure telephone and email links work correctly.
 
 ---
 
-## 21. Footer
+## 23. Footer
 
-Create a restrained editorial footer.
+Create a professional, comprehensive footer.
 
-Include:
+### Column 1: School Identity
 
-- School logo.
+- Official logo.
 - School name.
 - Short approved introduction.
-- Anchor links to major sections.
-- Verified contact information.
-- Approved social media links.
-- Privacy information, where available.
-- Current copyright year.
 
-Use forest green or dark evergreen as the footer background, with cream text and subtle neutral separators.
+### Column 2: Quick Navigation
 
-All internal navigation must point to the corresponding sections on the same landing page.
+- About Us.
+- Academics.
+- Facilities.
+- Gallery.
+- News & Blog.
 
-Avoid unnecessary footer columns and non-functional links.
+### Column 3: Parent Information
+
+- Admission Enquiry.
+- Academic Information.
+- FAQs.
+- Contact.
+
+### Column 4: Contact
+
+- Verified address.
+- Phone number.
+- Email.
+- Approved social links.
+
+Include a bottom copyright bar and applicable privacy information.
+
+All navigation links must point to sections on the same page unless they link to a genuine external resource.
+
+Do not add non-functional links.
 
 ---
 
-## 22. Motion and Micro-Interactions
+## 24. Interaction and Animation
 
-Animations must enhance the editorial experience rather than distract from the content.
+Use modern, subtle interactions throughout the landing page.
 
-Recommended effects:
+Recommended:
 
-- Subtle hero text reveal.
-- Gentle image entrance transitions.
-- Section reveal on scroll.
-- Small image zoom on hover.
-- Underline transitions on text links.
-- Smooth anchor scrolling.
-- Refined sticky-header transitions.
-- Gallery lightbox transitions.
-- Accessible accordion animations.
+- Sticky navigation.
+- Smooth section scrolling.
+- Hero text entrance.
+- Image hover zoom.
+- Section reveal animations.
+- Gallery filtering.
+- Lightbox transitions.
+- FAQ accordion.
+- Button hover states.
+- Subtle counter animation for verified statistics.
 
-Implementation guidance:
+### Technical Rules
 
 - Prefer CSS transitions and transforms.
-- Use Intersection Observer where appropriate.
-- Avoid heavy animation libraries unless already required.
-- Avoid excessive parallax and scroll hijacking.
+- Use Intersection Observer when necessary.
+- Avoid excessive parallax.
+- Avoid scroll hijacking.
+- Avoid unnecessary animation libraries.
 - Respect `prefers-reduced-motion`.
-- Keep interactions responsive on lower-powered mobile devices.
+- Ensure all interactions work on touch devices.
 
-All important content must remain visible and usable if animation is disabled.
+The website must remain fully usable when animations are disabled.
 
 ---
 
-## 23. Responsive Experience
+## 25. Responsive Design
 
-The website must be mobile-first and responsive.
+Build the website mobile-first.
 
 ### Desktop
 
-- Editorial asymmetry.
-- Large display typography.
-- Generous margins.
-- Wide photography.
-- Balanced content density.
+- Wide hero composition.
+- Comprehensive navigation.
+- Multi-column academic and gallery layouts.
+- Spacious photography sections.
+- Balanced content widths.
 
 ### Tablet
 
-- Reduced column counts.
-- Adapted image compositions.
-- Controlled heading sizes.
-- Touch-friendly navigation.
+- Simplified navigation.
+- Adapted image grids.
+- Reduced spacing.
+- Responsive heading sizes.
 
 ### Mobile
 
-- Single-column editorial flow.
-- Carefully wrapped headings.
-- Accessible mobile menu.
-- Full-width imagery where appropriate.
-- Compact information strips.
-- Comfortable paragraph widths.
-- Touch-friendly gallery and FAQ controls.
-- Accessible admission enquiry form.
+- Compact header.
+- Accessible navigation drawer.
+- Stacked hero composition.
+- Touch-friendly CTAs.
+- Single-column content where appropriate.
+- Responsive gallery.
+- Accessible enquiry form.
 - No horizontal overflow.
 
-Test approximately at:
+Test at approximately:
 
 - 360px.
 - 390px.
@@ -829,190 +895,163 @@ Test approximately at:
 - 1024px.
 - 1440px.
 
-Do not simply shrink the desktop layout. Recompose sections for smaller screens.
+Do not simply shrink desktop layouts; adapt the composition to each screen size.
 
 ---
 
-## 24. Technical Implementation
+## 26. Technical Implementation
 
-Inspect the existing project before changing code.
+Before coding, inspect the existing BVV website and its project structure.
 
-If the website is built with Django, preserve the existing Django architecture and integrate the design into the existing templates and static assets.
+If the existing site uses Django or another established backend, preserve its architecture and integrate the redesign into the existing project where possible.
 
-Recommended approach:
+Use:
 
 - Semantic HTML5.
-- Existing project styling framework, if suitable.
-- Modern CSS.
-- Vanilla JavaScript or the existing JavaScript framework.
-- Reusable template partials where appropriate.
-- Optimized images.
+- Modern CSS or the existing styling framework.
+- Vanilla JavaScript or the current frontend framework.
+- Reusable templates or components.
+- Optimized image assets.
 - SVG icons.
 - Accessible interactive components.
 
-Avoid unnecessary dependencies and do not rebuild the backend solely for a visual redesign.
+Avoid introducing unnecessary dependencies or rebuilding the backend solely for visual changes.
 
-Maintain existing functionality, important URLs, and SEO assets.
+Preserve existing functional routes, important content, and SEO assets.
 
-The deliverable must be a functioning website implementation, not merely a visual mockup or wireframe.
+All landing-page sections must work without requiring navigation to separate internal pages.
 
 ---
 
-## 25. Performance
+## 27. Performance and SEO
 
-Prioritize fast loading and smooth interactions.
+### Performance
 
-Requirements:
-
-- Use optimized WebP or AVIF images where supported.
+- Optimize images.
+- Use WebP or AVIF where appropriate.
 - Provide responsive image sizes.
-- Lazy-load below-the-fold imagery.
+- Lazy-load below-the-fold images.
 - Set explicit image dimensions.
-- Load fonts efficiently.
-- Avoid unnecessary third-party scripts.
+- Optimize font loading.
 - Minimize render-blocking assets.
-- Avoid loading every gallery image at full resolution initially.
+- Avoid unnecessary scripts.
 - Lazy-load maps and nonessential embeds.
-- Prevent layout shifts.
 
-Performance target: Lighthouse Performance 90+ on mobile where feasible.
+Target a Lighthouse mobile Performance score of 90+ where feasible, and verify it through actual testing.
 
-Also aim for strong accessibility, SEO, and best-practice scores. Measure these using actual tests rather than claiming unverified scores.
-
----
-
-## 26. SEO and Structured Data
-
-Optimize the single landing page for the school name and relevant local search terms.
+### SEO
 
 Include:
 
 - Descriptive page title.
 - Unique meta description.
-- Canonical URL matching the official preferred domain.
+- Correct canonical URL.
 - One primary H1.
-- Logical H2 and H3 structure.
+- Logical heading hierarchy.
 - Descriptive image alt text.
 - Open Graph metadata.
 - Social sharing image.
+- Accurate organization structured data.
 - Appropriate sitemap and robots configuration.
-- Accurate structured data.
 
-Use a suitable organization schema only when the required information is verified.
+Preserve existing useful URLs and avoid unnecessary redirects.
 
-Do not invent reviews, star ratings, school rankings, affiliation details, addresses, or achievements.
-
-Do not create separate SEO routes for gallery, journal, facilities, or academic sections.
-
-Preserve existing useful URLs and prevent unintended SEO regressions.
+Do not create separate pages for the gallery, facilities, academic sections, or blog previews in this project.
 
 ---
 
-## 27. Accessibility
+## 28. Accessibility
 
 Follow WCAG 2.2 AA principles where feasible.
 
 Ensure:
 
 - Keyboard navigation.
-- Visible focus states.
+- Visible focus indicators.
 - Sufficient color contrast.
 - Semantic HTML.
-- Accessible form labels and errors.
-- Accessible lightbox controls.
-- Keyboard-operable accordion components.
-- Descriptive links.
+- Accessible form labels and validation.
+- Keyboard-operable gallery lightbox.
+- Accessible accordions.
+- Descriptive link text.
 - Appropriate image alt text.
 - Reduced-motion support.
-- Proper heading hierarchy.
+- Correct heading hierarchy.
 
-Do not rely on hover alone to reveal essential content.
+Do not rely on hover alone to reveal important information.
 
 ---
 
-## 28. Content and Asset Integrity
+## 29. Content Integrity
 
-Before implementation, inspect the official website and available project assets.
+Before implementation, review the existing official BVV website and collect approved content and assets.
 
-Identify:
+Verify:
 
-- Official logo.
-- School photographs.
-- Approved introduction and educational philosophy.
-- Actual class offerings.
-- Confirmed facilities.
-- Verified contact information.
-- Existing SEO metadata.
-- Approved news and event content.
+- School logo.
+- School introduction.
+- Class offerings.
+- CBSE affiliation.
+- Medium of instruction.
+- Leadership information.
+- Actual facilities.
+- Genuine photographs.
+- Contact details.
+- News and achievements.
 
-Prioritize authentic school assets.
+Do not invent:
 
-If any content is unavailable, use clearly identifiable placeholders that are easy to replace.
-
-Never fabricate:
-
-- Student statistics.
-- Examination results.
+- Student counts.
+- Faculty counts.
 - Rankings.
 - Awards.
 - Testimonials.
-- Publication dates.
+- Examination results.
 - Admission deadlines.
-- Fees.
+- Fee details.
 - Facilities.
-- Contact details.
+- Leadership biographies.
 
-The website should look complete without making unsupported factual claims.
+If any information is unavailable, use clearly marked placeholders or omit the relevant section.
 
 ---
 
-## 29. Final Quality Checklist
+## 30. Final Quality Checklist
 
-Before presenting the website to school directors, confirm:
+Before presenting the redesign to the directors:
 
-- [ ] The overall appearance matches the Modern Editorial theme.
-- [ ] Forest green and warm cream dominate the visual identity.
-- [ ] Typography is sophisticated, legible, and responsive.
-- [ ] The header and navigation work correctly.
-- [ ] The hero section creates a strong first impression.
-- [ ] The school introduction is concise and accurate.
-- [ ] Classes I–XII are presented according to verified offerings.
-- [ ] Facilities are authentic and accurately described.
-- [ ] The gallery has a refined asymmetric layout.
-- [ ] Gallery filters and lightbox controls work correctly.
-- [ ] News and blog previews remain on the same page.
-- [ ] Testimonials and achievements are genuine or replaced with appropriate content.
-- [ ] Admission enquiry CTA is prominent.
-- [ ] The form behaves honestly and accessibly.
-- [ ] FAQs work on keyboard and mobile.
-- [ ] Contact details are verified.
-- [ ] All anchor links point to the correct sections.
-- [ ] The design works at all specified screen widths.
-- [ ] Images are optimized.
-- [ ] Animations respect reduced-motion preferences.
+- [ ] The website has a cohesive modern school identity.
+- [ ] The header includes verified contact details.
+- [ ] The hero section is visually compelling.
+- [ ] Classes I–XII are presented accurately.
+- [ ] About and educational philosophy sections are complete.
+- [ ] Leadership information is authentic.
+- [ ] Facilities and activities are accurately represented.
+- [ ] The gallery has working filters and a lightbox.
+- [ ] News and blog previews remain on the landing page.
+- [ ] Statistics are verified.
+- [ ] Testimonials are genuine or appropriately omitted.
+- [ ] The admission CTA is prominent.
+- [ ] The enquiry form behaves correctly.
+- [ ] FAQs work on desktop and mobile.
+- [ ] Contact links use verified details.
+- [ ] All internal navigation scrolls to the correct section.
+- [ ] Mobile navigation is accessible.
+- [ ] No horizontal overflow occurs.
+- [ ] Images and assets are optimized.
+- [ ] Accessibility and reduced-motion behavior are tested.
 - [ ] SEO metadata is accurate.
-- [ ] No existing website functionality has been unintentionally broken.
-- [ ] No placeholder information is mistakenly presented as verified fact.
+- [ ] Existing website functionality is preserved.
+- [ ] No fabricated school information is published.
 
 ---
 
-## 30. Final Creative Direction
+## 31. Final Implementation Instruction
 
-The final landing page must feel like a thoughtfully art-directed educational brand.
+Build a complete, polished, responsive, single-page landing page for Bihar Vikas Vidyalaya.
 
-Its defining characteristics should be:
+Use the broad information architecture of the Meridian The School reference website as inspiration, while creating an original visual identity and significantly improving consistency, spacing, typography, image presentation, responsive behavior, and interaction quality.
 
-1. Sophisticated editorial typography.
-2. Warm, restrained colors.
-3. Authentic school photography.
-4. Distinctive asymmetric layouts.
-5. Large, deliberate whitespace.
-6. A memorable visual gallery.
-7. A refined school journal.
-8. Clear academic information.
-9. Trust-building content.
-10. An elegant, conversion-focused admissions experience.
-11. Exceptional mobile responsiveness.
-12. Fast, accessible interactions.
+The finished result must be suitable for a professional live presentation to the school directors.
 
-**Final implementation instruction:** Build the complete, responsive, single-page landing page using the Modern Editorial design system. Inspect the existing website and project before implementation, preserve the current architecture wherever possible, implement every required section, and ensure all interactive elements function correctly. The result must be ready for a professional live demonstration to the school directors, with any unverified content clearly identified for approval.
+Do not stop at a wireframe or static mockup. Implement the complete page, ensure the interactive elements work, preserve the existing project architecture wherever possible, and identify any remaining backend integrations or content requiring school approval.
