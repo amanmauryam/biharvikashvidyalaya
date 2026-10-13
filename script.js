@@ -1,7 +1,7 @@
 /* ==========================================================================
    Bihar Vikas Vidyalaya — interactions
    Header, mobile drawer, scrollspy, reveal, gallery lightbox, accordion,
-   news expand, enquiry form validation.
+   journal expand, enquiry form validation.
    ========================================================================== */
 (function () {
   "use strict";
